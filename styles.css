@@ -70,11 +70,13 @@ nav{
     width: 70%;
     margin-left: 15%;
     margin-bottom: 15%;
+
     margin-top: 10px;
     display: -webkit-flex;
     display: flex;
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
+
 }
 
 a{
@@ -86,6 +88,7 @@ a{
 a:hover{
     color: white;
     transition: 1s;
+
 }
 .columna1{
     text-align: center;
@@ -126,4 +129,5 @@ a:hover{
 h5{
     border: 3px solid  #44CCEB;
     text-align: center;
+
 }
