@@ -66,11 +66,13 @@ nav{
     border-radius: 100%;
 }
 
-.principal{
+.principal{    
     width: 70%;
     margin-left: 15%;
     margin-bottom: 15%;
     margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 a{
@@ -82,4 +84,10 @@ a{
 a:hover{
     color: white;
     transition: 1s;
+}
+
+footer{
+
+    text-align: center;
+    border: 3px solid #44CCEB;
 }
