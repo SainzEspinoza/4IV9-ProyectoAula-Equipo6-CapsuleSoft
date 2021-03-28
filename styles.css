@@ -23,6 +23,7 @@ div.header-img{
     background-repeat: none;
     background-position: center;
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 div.logo-img{    
