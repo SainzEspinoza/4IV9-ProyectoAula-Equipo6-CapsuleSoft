@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Dosis', sans-serif;
+
+    background-color: #9dd9fc;
+background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2397994a' fill-opacity='0.32'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+header{
+    display: grid;
+    grid-template-columns: 30% 70%;    
+    height: 250px;
+    overflow: hidden;   
+    background-color: #37EAA8; 
+}
+
+div.header-img{
+    background-image: url(imgs/header.jpg);
+    background-repeat: none;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+div.logo-img{    
+    background-image: url(imgs/logo.png);
+    background-position: center;        
+    background-size: 55%;
+    background-repeat: no-repeat;
+}
+
+
+nav{
+    background-color: #44CCEB;
+    height: 45px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+.as{       
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;    
+    height: 5px;
+}
+
+.as div{
+    margin-top: 10px;    
+    height: 20px;
+    width: 65%;    
+    border-radius:5px;
+}
+
+.logo{ 
+    height: 45px;    
+    margin-left: 45px;
+    border-radius: 100%;
+}
+
+.principal{
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 15%;
+
+    margin-top: 10px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Dosis', sans-serif;
+}
+
+a:hover{
+    color: white;
+    transition: 1s;
+
+}
+.columna1{
+    text-align: center;
+    width: 100%;
+    padding-top: 28px;
+    padding-bottom: 25px;
+}
+.columna2,
+.columna3{
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+@media (min-width: 1000px) {
+    .columna1 {
+        width: 100%;
+        -webkit-order: 1;
+        order: 1;
+        background-color: rgb(17, 136, 184);
+    }
+
+    .columna2 {
+        width: 50%;
+        -webkit-order: 2;
+        order: 2;
+        background-color: rgb(110, 228, 228);
+    }
+    .columna3 {
+        width: 50%;
+        -webkit-order: 3;
+        order: 3;
+        background-color: rgb(58, 121, 121);
+    }
+
+}
+h5{
+    border: 3px solid  #44CCEB;
+    text-align: center;
+
+<<<<<<< HEAD:PJ-1erparcial/stylesindex.css
+}
+=======
+}
+>>>>>>> 38d3cf68ce1e5bf751314e941c02381c0198cfa8:stylesindex.css
